@@ -1,6 +1,6 @@
 ---
 
 - hosts: destination
-  sudo: yes
+  become: true
   roles:
     - ansible-java
